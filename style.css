@@ -1,67 +1,71 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f7f8fa;
-  }
-  
-  .header {
-    background-color: #2b2d42;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .content {
-    background-color: #ffffff;
-    padding: 30px;
-    margin: 30px auto;
-    width: 90%;
-    max-width: 1200px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-  }
-  
-  .columns {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .category {
-    flex: 1 1 300px;
-  }
-  
-  h3 {
-    margin-top: 0;
-  }
-  
-  .app-list {
-    list-style-position: inside;
-    padding-left: 0;
-  }
-  
-  .app-list li {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 12px 0;
-    font-size: 1.1rem;
-  }
-  
-  .app-list img {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
-    border-radius: 4px;
-  }
-  
-  .app-list a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  .app-list a:hover {
-    text-decoration: underline;
-  }
-  
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f8fa;
+}
+
+.header {
+  background-color: #2b2d42;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  padding: 30px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 1200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+/* Flex layout for 3 columns */
+.columns {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.category-block {
+  flex: 1 1 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.app-list {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.app-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+.app-list img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.app-list a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.app-list a:hover {
+  text-decoration: underline;
+}
