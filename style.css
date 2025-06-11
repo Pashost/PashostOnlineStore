@@ -21,7 +21,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Flex layout for 3 columns */
 .columns {
   display: flex;
   gap: 40px;
